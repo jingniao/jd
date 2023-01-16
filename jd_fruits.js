@@ -7,7 +7,7 @@
 cron "5 4,7,14,20 * * *" script-path=jd_fruits.js,tag=东东农场
 export DO_TEN_WATER_AGAIN="1" 攒水滴
 */
-curl ifconfig.me -s
+
 const $ = new Env('东东农场');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [], cookie = '', jdFruitShareArr = [], isBox = false, notify, newShareCodes, allMessage = '';
