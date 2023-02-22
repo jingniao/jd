@@ -1,3 +1,5 @@
+require('global-agent/bootstrap');
+global.GLOBAL_AGENT.HTTP_PROXY="http://192.168.31.214:9090";
 /**
 2022/8/17 兑换物流积分失败不在执行兑换京豆
 2022/8/24 兑回京豆调整为兑换剩余全部积分，不按兑换积分计
